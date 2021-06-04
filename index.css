@@ -2,9 +2,13 @@
     border: black solid;
     margin: 10px;
 } */
+input[type="text"] {
+    font-size:15px;
+}
 body{
     font-family:arial,sans-serif;
     font-size: 15px;
+    line-height: 20px;
 }
 .topbar{
     margin-top: 22px;
@@ -110,6 +114,66 @@ body{
 .righthalfnav{
     margin-left: 73px;
 }
+.speed-content{
+    display: flex;   
+}
+.speed{    
+    margin: 15px 0px 15px 178px;
+    color: #70757A;
+}
+.search-content{
+    display: flex;
+    margin-left: 178px;
+    /* border: solid salmon; */
+}
+.results{
+    /* border: solid black; */
+    width: 37%;
+}
+/* .people-search{
+    border: solid black;
+}
+.result-container{
+    border: solid salmon;
+} */
+.result-container{
+    margin: 10px 0 10px 0;
+}
+.ad-separator{
+    margin-left: 3px;
+}
+.website-intro{
+    display: inline-flex;
+    margin: 10px 0 10px 0;
+}
+.heading-link{
+    color: #2F0DAB;
+    font-size: 20px;
+}
+.description{
+    margin: 10px 0 10px 0;
+    color: #70757A;
+}
+.cats{
+    margin: 20px 0 20px 20px;
+    /* border: solid salmon; */
+    height: 180px;
+}
+.individual{
+    /* border: solid black; */
+    width: 50%;
+    height: 100%;
+}
+.row{
+    height: 49%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+ }
 :focus{
     outline: none;
 }
