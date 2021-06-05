@@ -137,7 +137,7 @@ body{
     border: solid salmon;
 } */
 .result-container{
-    margin: 10px 0 10px 0;
+    margin: 10px 0 15px 0;
 }
 .ad-separator{
     margin-left: 3px;
@@ -155,7 +155,7 @@ body{
     color: #70757A;
 }
 .cats{
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 0 20px;
     /* border: solid salmon; */
     height: 180px;
 }
@@ -167,6 +167,109 @@ body{
 .row{
     height: 49%;
     display: flex;
+}
+.people-search{
+    padding: 10px 10px 0 10px;
+    margin: 10px 0 10px 0;
+    border: solid 1px #dadce0;
+    border-radius: 8px;
+    height: fit-content;
+}
+.description2{
+    color:#6F6F87;
+}
+.people-search-close{
+    height: 17px;
+}
+.top-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.links-container{
+    /* border: solid salmon; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80px;
+    list-style-type:none;
+    padding: 0;
+}
+.links-container li{
+    margin: 2px 0 2px 0;
+    width: 50%;
+}
+.links-container li a{
+    color: #2F0DAB;
+}
+.lmaoo{
+    /* display: block; */
+    width: 500px;
+    display: flex;
+    /* border: solid salmon; */
+}
+.ads{
+    width: 100%;
+    margin: 0 0 0 100px;
+}
+.right-people-search{
+    width: fit-content;
+    margin: 0 0 10px 0;
+}
+.rightsideadcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+.collapse-icon{
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+    height: 20px;
+}
+.LV5Kte{
+    border-radius: 10px;    
+}
+.banner-containers{
+    height: 78px;
+    width: 78px;
+    margin-bottom: 12px;
+}
+.banner-with-names{
+    margin: 0 5px 0 5px;
+    width: 78px;
+    height: fit-content;
+}
+.banner-with-names span a{
+    color: black;
+}
+.row-of-banners{
+    margin-top: 17px;
+    display: flex;
+}
+.see-more{
+    display: flex;
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    width: 97%;
+    border-radius: 50px;
+    text-align: center;
+    height: 35px;
+    border: solid 1px #dadce0;    
+}
+.see-more span{
+    color: #1a0dab;
+    margin: 0 auto;
+    line-height: 35px;
+}
+.right-arrow{
+    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    height: 20px;
 }
 a{
     text-decoration: none;
